@@ -5,4 +5,4 @@
 
  ## Lab
 
- 1. [Experiment 1 ](./Lab/Lab-1/Report.md)
+ 1. [Experiment 1 ](./Theory/index.html)
