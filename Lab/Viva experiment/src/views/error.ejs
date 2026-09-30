@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+
+<div class="error-container">
+  <div class="error-badge"><%= typeof statusCode !== 'undefined' ? statusCode : 500 %></div>
+  <h1 class="error-title"><%= typeof title !== 'undefined' ? title : 'An Error Occurred' %></h1>
+  <p class="error-message"><%= typeof message !== 'undefined' ? message : 'Something went wrong.' %></p>
+  <a href="/posts" class="btn btn-primary">Return to Homepage</a>
+</div>
+
+<%- include('partials/footer') %>
